@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Box with Text, Entry, and Button</title>
+<style>
+    .banner {
+        background-color: #f0f0f0;
+        padding: 10px 0;
+        text-align: center;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+    .banner img {
+        max-width: 100%;
+        height: 50px;
+    }
+    body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        background-color: #f4f4f4;
+        font-family: Arial, sans-serif;
+    }
+    .box {
+        width: 300px;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        position: absolute;
+        top: calc(50px + 35px); /* Adjusted top position */
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    table {
+        width: 100%;
+    }
+    
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+    
+    th {
+        background-color: #f2f2f2;
+    }
+</style>
+</head>
+<body>
+
+<div class="banner">
+    <img src="kiit2.png" alt="Banner Image">
+</div>
+
+<div class="box">
+    <img src="profile.png" alt="Profile_pic", width="80px">
+    <h2>User Details</h2>
+    <table>
+        <tr>
+            <th>Name</th>
+            <td>Null1</td>
+        </tr>
+        <tr>
+            <th>Roll</th>
+            <td>Null2</td>
+        </tr>
+        <tr>
+            <th>Age</th>
+            <td>30</td>
+        </tr>
+        <tr>
+            <th>Location</th>
+            <td>New York, USA</td>
+        </tr>
+    </table>
+</div>
+
+</body>
+</html>
